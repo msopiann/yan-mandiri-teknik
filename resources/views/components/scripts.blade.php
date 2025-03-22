@@ -12,8 +12,8 @@
 <script src="{{asset('assets/js/plugins/smooth-scroll.js')}}"></script>
 <script src="{{asset('assets/js/vendor/waw.js')}}"></script>
 
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuSiPhoDaOJ7aqtJVtQhYhLzwwJ7rQlmA&loading=async"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_MAPS_API_KEY') }}&loading=async"></script>
+
 <script src="{{asset('assets/js/vendor/marker.js')}}"></script>
 <script src="{{asset('assets/js/vendor/map-content.js')}}"></script>
 <script src="{{asset('assets/js/vendor/info-box.js')}}"></script>
