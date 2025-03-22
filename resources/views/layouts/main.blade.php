@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title ?? 'Yan Mandiri Teknik | Bengkel Bubut Baja Jakarta' }}</title>
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/fontawesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/aos.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/odometer.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/swiper.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/metismenu.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/magnifying-popup.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/plugins/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/plugins/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/plugins/odometer.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/plugins/swiper.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/plugins/metismenu.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/plugins/magnifying-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/vendor/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
 </head>
 
 <body class="bg-home-4">

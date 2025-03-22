@@ -1,25 +1,25 @@
 <!-- scripts -->
-<script src="{{asset('assets/js/plugins/jquery.js')}}"></script>
-<script src="{{asset('assets/js/vendor/bootstrap.min.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/jquery.js')}}"></script>
+<script src="{{asset('public/assets/js/vendor/bootstrap.min.js')}}"></script>
 
-<script src="{{asset('assets/js/plugins/odometer.js')}}"></script>
-<script src="{{asset('assets/js/plugins/jquery-appear.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/odometer.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/jquery-appear.js')}}"></script>
 
-<script src="{{asset('assets/js/plugins/metismenu.js')}}"></script>
-<script src="{{asset('assets/js/plugins/swiper.js')}}"></script>
-<script src="{{asset('assets/js/plugins/aos.js')}}"></script>
-<script src="{{asset('assets/js/plugins/nice-select.js')}}"></script>
-<script src="{{asset('assets/js/plugins/smooth-scroll.js')}}"></script>
-<script src="{{asset('assets/js/vendor/waw.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/metismenu.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/swiper.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/aos.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/nice-select.js')}}"></script>
+<script src="{{asset('public/assets/js/plugins/smooth-scroll.js')}}"></script>
+<script src="{{asset('public/assets/js/vendor/waw.js')}}"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key={{ env('GOOGLE_MAPS_API_KEY') }}&loading=async"></script>
 
-<script src="{{asset('assets/js/vendor/marker.js')}}"></script>
-<script src="{{asset('assets/js/vendor/map-content.js')}}"></script>
-<script src="{{asset('assets/js/vendor/info-box.js')}}"></script>
+<script src="{{asset('public/assets/js/vendor/marker.js')}}"></script>
+<script src="{{asset('public/assets/js/vendor/map-content.js')}}"></script>
+<script src="{{asset('public/assets/js/vendor/info-box.js')}}"></script>
 <script src="https://html.themewant.com/golfy/assets/js/plugins/magnific-popup.js"></script>
 
-<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{asset('public/assets/js/main.js')}}"></script>
 
 <script>
     let lastScrollY = window.scrollY;
