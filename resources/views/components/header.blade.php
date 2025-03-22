@@ -50,7 +50,7 @@
                     <div class="header-end">
                         <a href="#contact" class="rts-btn btn-primary">Konsultasi Sekarang</a>
                         <div class="nav-btn menu-btn" id="menu-btn">
-                            <img src="{{ asset('assets/images/logo/bar.svg') }}" alt="nav-image">
+                            <img src="{{ asset('public/assets/images/logo/bar.svg') }}" alt="nav-image">
                         </div>
                     </div>
                 </div>
